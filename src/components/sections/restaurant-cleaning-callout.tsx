@@ -6,17 +6,17 @@ const RestaurantCleaningCallout = () => {
       <div className="container">
         <div className="mx-auto max-w-[800px] rounded-xl bg-white p-12 text-center shadow-[0_2px_15px_rgba(0,0,0,0.08)]">
           <h2 className="italic text-primary">
-            Elevate Your Restaurant's Sparkle!
+            Enhance Your Dining Establishment's Brilliance!
           </h2>
 
           <p className="lead">
-            Cleaning doesn't have to be one of a restaurant's daily worries! To ensure your restaurant maintains cleaning standards, Dream & Clean has experience in janitorial services. Our experts clean dining spaces and commercial kitchens.
+            Keeping things clean shouldn't be a constant concern for restaurant owners! To help your establishment uphold cleanliness standards, Dream & Clean brings expertise in maintenance services. Our specialists handle dining areas and business kitchen spaces.
           </p>
           <p className="lead font-medium">
-            Want to provide a consistently excellent eating experience in a clean and healthy restaurant?
+            Looking to offer a consistently outstanding dining experience in a pristine and sanitary restaurant?
           </p>
           <p className="lead mb-0">
-            Contact our team for a custom quote on regular scheduled cleaning services.
+            Reach out to our team for a personalized estimate on routine scheduled maintenance services.
           </p>
 
           <div className="mt-8">
@@ -24,7 +24,7 @@ const RestaurantCleaningCallout = () => {
               href="/contact"
               className="inline-block rounded-full bg-primary px-8 py-[14px] font-semibold uppercase leading-none tracking-[0.5px] text-primary-foreground shadow-[0_4px_12px_rgba(29,184,180,0.3)] transition-colors duration-300 hover:bg-[#18A09d]"
             >
-              Request Quote
+              Get an Estimate
             </Link>
           </div>
         </div>

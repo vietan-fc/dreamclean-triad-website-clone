@@ -50,7 +50,7 @@ const Footer = () => {
             {/* Column 2: Contact Info */}
             <div className="text-center lg:text-left">
               <h4 className="text-primary font-semibold text-lg md:text-xl mb-6">
-                Contact Information
+                Get In Touch
               </h4>
               <div className="space-y-4 text-base">
                 <div>
@@ -106,7 +106,7 @@ const Footer = () => {
         href="#" 
         className="fixed bottom-5 right-5 z-[1000] bg-[#20b2aa] text-white font-semibold py-3 px-6 rounded-full shadow-[0_4px_12px_rgba(32,178,170,0.4)] hover:bg-primary-dark transition-colors duration-300 text-sm uppercase tracking-wider"
       >
-        Request Quote
+        Get an Estimate
       </a>
     </footer>
   );

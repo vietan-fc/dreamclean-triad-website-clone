@@ -10,9 +10,9 @@ export default function ContactInfoSection() {
             <div className="h-16 w-16 rounded-full bg-primary flex items-center justify-center mb-6 text-white">
               <Phone className="h-8 w-8" />
             </div>
-            <h3 className="text-xl font-semibold mb-2">Call Us</h3>
+            <h3 className="text-xl font-semibold mb-2">Phone Us</h3>
             <p className="text-text-secondary mb-4">
-              We're available to answer your calls and questions.
+              We're here to respond to your calls and inquiries.
             </p>
             <a
               href="tel:336-715-7224"
@@ -26,9 +26,9 @@ export default function ContactInfoSection() {
             <div className="h-16 w-16 rounded-full bg-primary flex items-center justify-center mb-6 text-white">
               <Mail className="h-8 w-8" />
             </div>
-            <h3 className="text-xl font-semibold mb-2">Email Us</h3>
+            <h3 className="text-xl font-semibold mb-2">Write to Us</h3>
             <p className="text-text-secondary mb-4">
-              Send us an email and we'll get back to you shortly.
+              Drop us a message and we'll respond to you promptly.
             </p>
             <a
               href="mailto:dreamcleantriad@gmail.com"
@@ -42,12 +42,12 @@ export default function ContactInfoSection() {
             <div className="h-16 w-16 rounded-full bg-primary flex items-center justify-center mb-6 text-white">
               <Clock className="h-8 w-8" />
             </div>
-            <h3 className="text-xl font-semibold mb-2">Working Hours</h3>
+            <h3 className="text-xl font-semibold mb-2">Business Hours</h3>
             <p className="text-text-secondary mb-1">
-              Monday - Friday: 8:00 AM - 6:00 PM
+              Monday through Friday: 8:00 AM to 6:00 PM
             </p>
             <p className="text-text-secondary">
-              Saturday - Sunday: Closed
+              Weekends: Not available
             </p>
           </div>
         </div>

@@ -52,13 +52,13 @@ const HeroBanner = () => {
           </h1>
           
           <p className="mx-auto max-w-2xl text-lg md:text-2xl font-medium text-gray-100 leading-relaxed drop-shadow-md animate-[fadeIn_1.5s_ease-out_0.5s_forwards] opacity-0">
-            Providing a Fresh Start for Clients in the High Point Area
+            Delivering a Clean Beginning for Customers Throughout the High Point Region
           </p>
 
           <div className="pt-8 animate-[fadeIn_1.5s_ease-out_1s_forwards] opacity-0 md:hidden">
             {/* Mobile CTA if needed, though Quote Form is sticky on desktop */}
             <a href="#quote-form" className="inline-block bg-primary text-white font-bold py-3 px-8 rounded-full shadow-lg active:scale-95 transition-transform">
-              Get a Quote
+              Request an Estimate
             </a>
           </div>
         </div>

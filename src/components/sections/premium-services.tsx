@@ -24,13 +24,13 @@ const PremiumServices = () => {
             <div className="container mx-auto px-4">
                 <div className="text-center max-w-4xl mx-auto">
                     <p className="text-text-secondary text-sm font-semibold uppercase tracking-widest mb-4">
-                        CHECK OUT OUR COMPREHENSIVE RANGE OF
+                        EXPLORE OUR EXTENSIVE SELECTION OF
                     </p>
                     <h2 className="text-primary italic font-semibold text-[28px] lg:text-[36px] leading-tight mb-8">
-                        Premium Cleaning Services
+                        High-End Cleaning Solutions
                     </h2>
                     <p className="text-text-primary text-base leading-relaxed max-w-3xl mx-auto mb-12 md:mb-16">
-                        We offer a comprehensive range of cleaning services to meet all your needs, including residential cleaning, commercial cleaning, deep cleaning, carpet cleaning, window cleaning, and more. To request additional information or to get started with scheduling services, contact our team.
+                        We provide an extensive array of cleaning solutions designed to address every requirement, such as home cleaning, business cleaning, intensive cleaning, upholstery care, glass cleaning, and additional services. For more details or to begin arranging your services, get in touch with our staff.
                     </p>
                 </div>
 
@@ -58,7 +58,7 @@ const PremiumServices = () => {
                         href="/contact"
                         className="inline-block bg-primary text-primary-foreground font-semibold uppercase tracking-widest py-[14px] px-8 rounded-full shadow-[0_4px_12px_rgba(29,184,180,0.3)] hover:bg-primary-dark transition-colors duration-300"
                     >
-                        Contact Now
+                        Get In Touch Today
                     </a>
                 </div>
             </div>

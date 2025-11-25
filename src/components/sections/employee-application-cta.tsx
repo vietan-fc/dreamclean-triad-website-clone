@@ -20,14 +20,14 @@ const EmployeeApplicationCta = () => {
                         className="font-semibold text-primary text-2xl md:text-[32px] italic"
                         style={{ lineHeight: '1.3', letterSpacing: '-0.3px' }}
                     >
-                        Join Our Team: Dream & Clean's Employee Application Form
+                        Become Part of Our Team: Dream & Clean's Staff Application Form
                     </h2>
 
                     <p 
                         className="mt-6 text-text-primary max-w-4xl mx-auto text-base md:text-[17px]"
                         style={{ lineHeight: '1.7' }}
                     >
-                        Our employee application opens the door to a fulfilling career at Dream and Clean, where you can become a valued member of our dedicated team of cleaning and organizing experts. Join us in providing top-notch services, making a difference in clients' lives, and growing professionally in a dynamic and supportive environment.
+                        Our staff application creates opportunities for a rewarding profession at Dream and Clean, where you can join our committed group of cleaning and organizing specialists. Become part of our mission to deliver exceptional solutions, positively impacting clients' daily experiences, and advancing your career in an engaging and encouraging setting.
                     </p>
 
                     <div className="mt-10">
@@ -35,7 +35,7 @@ const EmployeeApplicationCta = () => {
                             href="#"
                             className="inline-block bg-primary text-primary-foreground font-semibold text-base py-3.5 px-8 rounded-full shadow-[0_4px_12px_rgba(29,184,180,0.3)] transition-all duration-300 ease-in-out hover:bg-primary-dark hover:shadow-lg hover:scale-105"
                         >
-                            Application Form
+                            Access Application
                         </a>
                     </div>
                 </div>

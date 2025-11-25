@@ -8,16 +8,16 @@ const CommercialCleaningDetail = () => {
           {/* Content Column */}
           <div className="flex flex-col items-start gap-8 text-left">
             <h3 className="font-semibold italic text-primary text-[32px] leading-[1.3]">
-              Commercial Cleaning Made Effortless
+              Business Cleaning Simplified
             </h3>
             <p className="text-text-primary text-[17px] leading-[1.7]">
-              We are your trusted partner for professional commercial cleaning services that help maintain a clean and inviting workspace. We understand the unique needs of businesses and offer comprehensive cleaning solutions tailored to your specific industry and facility. Our experienced team is equipped to handle offices, retail spaces, restaurants, medical facilities, and more, ensuring a clean and hygienic environment for your employees and customers. Boost productivity and leave a lasting impression with our commercial cleaning services—contact us today.
+              We serve as your reliable ally for expert business cleaning solutions that keep your workplace spotless and welcoming. We appreciate the distinct requirements of various companies and deliver thorough cleaning approaches customized to your particular sector and location. Our proficient crew is prepared to manage corporate offices, storefronts, dining establishments, healthcare centers, and additional venues, guaranteeing a sanitary and safe atmosphere for your staff and patrons. Enhance efficiency and create a memorable impact with our business cleaning offerings—reach out now.
             </p>
             <a
               href="#"
               className="inline-block bg-primary text-primary-foreground font-semibold uppercase tracking-[0.5px] rounded-full px-8 py-3.5 text-base shadow-[0_4px_12px_rgba(29,184,180,0.3)] hover:bg-primary-dark transition-all focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
             >
-              Get In Touch
+              Contact Us
             </a>
           </div>
 

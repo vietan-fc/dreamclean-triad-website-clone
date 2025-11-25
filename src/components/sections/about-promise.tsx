@@ -17,19 +17,19 @@ const AboutPromise = () => {
           </div>
           <div>
             <h2 className="text-primary font-semibold italic text-2xl md:text-[32px] leading-[1.3] mb-6">
-              We Promise to Leave No Corner Untouched
+              We Commit to Cleaning Every Inch of Your Space
             </h2>
             <p className="text-text-primary text-sm md:text-[17px] leading-[1.7] mb-5">
-              At Dream & Clean, we understand how stressful cleaning can be. That’s why we offer professional residential and commercial cleaning services throughout High Point and the surrounding areas. We guarantee to leave no spots untouched, providing your property with a fresh, clean start. Our skilled and qualified team focuses on achieving 100% customer satisfaction with every job, no matter the size.
+              Here at Dream & Clean, we recognize the challenges that come with maintaining a clean space. This is why we provide expert residential and commercial cleaning services across High Point and neighboring communities. We ensure every area receives attention, giving your property a spotless, renewed beginning. Our talented and certified staff is committed to delivering complete client satisfaction on every assignment, regardless of scope.
             </p>
             <p className="text-text-primary text-sm md:text-[17px] leading-[1.7]">
-              From residential homes to business properties, our experienced team of cleaners is dedicated to providing outstanding results and exceeding expectations. Discover the joy of a pristine and organized environment today—contact us now to schedule your next cleaning appointment.
+              Whether it's private residences or commercial establishments, our seasoned cleaning professionals strive to deliver exceptional outcomes that go beyond what's expected. Experience the satisfaction of an immaculate and well-organized space—reach out today to book your upcoming cleaning service.
             </p>
             <a
               href="#"
               className="inline-block mt-8 bg-primary text-primary-foreground font-semibold uppercase rounded-full py-[14px] px-8 text-base tracking-[0.5px] leading-none shadow-[0_4px_12px_rgba(29,184,180,0.3)] hover:bg-primary-dark transition-colors"
             >
-              GET STARTED
+              BEGIN NOW
             </a>
           </div>
         </div>

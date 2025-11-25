@@ -9,11 +9,11 @@ const galleryItems = [
     isPlaceholder: false,
     before: {
       src: 'https://images.unsplash.com/photo-1556911220-bff31c812dba?w=400&q=80&auto=format&fit=crop&ixlib=rb-4.0.3',
-      alt: 'Messy kitchen counter before cleaning',
+      alt: 'Untidy kitchen counter prior to cleaning',
     },
     after: {
       src: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=400&q=80&auto=format&fit=crop&ixlib=rb-4.0.3',
-      alt: 'Clean kitchen counter after cleaning',
+      alt: 'Spotless kitchen counter following cleaning',
     },
   },
   {
@@ -21,11 +21,11 @@ const galleryItems = [
     isPlaceholder: false,
     before: {
       src: 'https://images.unsplash.com/photo-1556911220-bff31c812dba?w=400&q=80&auto=format&fit=crop&ixlib=rb-4.0.3',
-      alt: 'Cluttered kitchen before organizing',
+      alt: 'Disorganized kitchen prior to organizing',
     },
     after: {
       src: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=400&q=80&auto=format&fit=crop&ixlib=rb-4.0.3',
-      alt: 'Organized kitchen after cleaning',
+      alt: 'Neat kitchen following cleaning',
     },
   },
   {
@@ -33,11 +33,11 @@ const galleryItems = [
     isPlaceholder: false,
     before: {
       src: 'https://images.unsplash.com/photo-1556228720-195a672e8a03?w=400&q=80&auto=format&fit=crop&ixlib=rb-4.0.3',
-      alt: 'Dirty bathtub before cleaning',
+      alt: 'Soiled bathtub prior to cleaning',
     },
     after: {
       src: 'https://images.unsplash.com/photo-1620626011761-996317b8d101?w=400&q=80&auto=format&fit=crop&ixlib=rb-4.0.3',
-      alt: 'Clean bathtub after cleaning',
+      alt: 'Pristine bathtub following cleaning',
     },
   },
   {
@@ -45,11 +45,11 @@ const galleryItems = [
     isPlaceholder: false,
     before: {
       src: 'https://images.unsplash.com/photo-1556911220-bff31c812dba?w=400&q=80&auto=format&fit=crop&ixlib=rb-4.0.3',
-      alt: 'Messy bedroom before cleaning',
+      alt: 'Disorderly bedroom prior to cleaning',
     },
     after: {
       src: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=400&q=80&auto=format&fit=crop&ixlib=rb-4.0.3',
-      alt: 'Organized bedroom after cleaning',
+      alt: 'Tidy bedroom following cleaning',
     },
   },
 ];
@@ -80,10 +80,10 @@ const BeforeAfterGallery = () => {
             className="text-center text-primary italic text-[32px] md:text-[36px] leading-[1.3] font-semibold mb-4"
             style={{ fontFamily: 'var(--font-display)' }}
           >
-            Cleaning Services That Get Results
+            Cleaning Solutions That Deliver Results
           </h2>
           <p className="text-center text-text-secondary max-w-4xl mx-auto mb-12 md:mb-16 text-base md:text-lg leading-relaxed">
-            If you would like to see evidence of our exceptional cleaning services, check out our gallery of before and after images below. Impressed with our stellar results? Get in touch with Dream & Clean today to experience a pristine clean for yourself!
+            If you'd like to view proof of our outstanding cleaning solutions, browse our collection of before and after photos below. Amazed by our impressive outcomes? Contact Dream & Clean today to enjoy an immaculate clean for yourself!
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 lg:gap-10">
@@ -94,7 +94,7 @@ const BeforeAfterGallery = () => {
                     {/* Before Image */}
                     <div className="relative group cursor-pointer" onClick={() => openLightbox(item.before.src)}>
                       <div className="absolute top-2 left-2 z-10 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded shadow-md">
-                        BEFORE
+                        PREVIOUS
                       </div>
                       {item.isPlaceholder || imageErrors[item.before.src] ? (
                         <Placeholder alt={item.before.alt} />
@@ -115,7 +115,7 @@ const BeforeAfterGallery = () => {
                     {/* After Image */}
                     <div className="relative group cursor-pointer" onClick={() => openLightbox(item.after.src)}>
                       <div className="absolute top-2 right-2 z-10 bg-green-500 text-white text-xs font-bold px-2 py-1 rounded shadow-md">
-                        AFTER
+                        FOLLOWING
                       </div>
                       {item.isPlaceholder || imageErrors[item.after.src] ? (
                         <Placeholder alt={item.after.alt} />

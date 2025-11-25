@@ -28,74 +28,74 @@ const serviceContent: Record<string, {
   image: string;
 }> = {
   "cleaning-service": {
-    title: "Professional Cleaning Service",
-    description: "Our comprehensive cleaning service provides top-to-bottom cleaning for your space. We use eco-friendly products and professional-grade equipment to ensure exceptional results every time.",
+    title: "Expert Cleaning Solutions",
+    description: "Our thorough cleaning solution delivers complete cleaning for your property. We utilize environmentally safe products and commercial-quality tools to guarantee outstanding outcomes on every occasion.",
     features: [
-      "Deep cleaning of all surfaces",
-      "Eco-friendly cleaning products",
-      "Professional-grade equipment",
-      "Flexible scheduling options",
-      "100% satisfaction guarantee"
+      "Intensive cleaning of every surface",
+      "Environmentally safe cleaning solutions",
+      "Commercial-quality tools",
+      "Adaptable scheduling choices",
+      "Complete satisfaction promise"
     ],
     image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/b3822b99-555b-49a8-bb83-c8cf38e53eaf-dreamandcleantriad-com/assets/images/pexels-photo-4239147-1920w.jpeg"
   },
   "residential-cleaning-service": {
-    title: "Residential Cleaning Services",
-    description: "Transform your home into a pristine sanctuary with our exceptional residential cleaning services. Our experienced team ensures every corner of your home sparkles.",
+    title: "Home Cleaning Solutions",
+    description: "Turn your residence into an immaculate haven with our outstanding home cleaning solutions. Our seasoned crew makes certain every area of your home shines.",
     features: [
-      "Customized cleaning plans",
-      "Kitchen and bathroom deep cleaning",
-      "Dusting and vacuuming",
-      "Floor care and polishing",
-      "Trusted and background-checked staff"
+      "Tailored cleaning programs",
+      "Intensive kitchen and bathroom care",
+      "Surface cleaning and floor suction",
+      "Floor maintenance and shining",
+      "Reliable and vetted personnel"
     ],
     image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/b3822b99-555b-49a8-bb83-c8cf38e53eaf-dreamandcleantriad-com/assets/images/pexels-photo-2988860-1200w-10.jpeg"
   },
   "commercial-cleaning-service": {
-    title: "Commercial Cleaning Services",
-    description: "Keep your business looking professional with our comprehensive commercial cleaning services. We work around your schedule to minimize disruption to your operations.",
+    title: "Business Cleaning Solutions",
+    description: "Maintain your company's professional appearance with our extensive business cleaning solutions. We accommodate your timetable to reduce interference with your activities.",
     features: [
-      "Office and workspace cleaning",
-      "Restroom sanitization",
-      "Floor maintenance",
-      "Window cleaning",
-      "After-hours service available"
+      "Workplace and office area cleaning",
+      "Bathroom disinfection",
+      "Surface care",
+      "Glass cleaning",
+      "Evening service options available"
     ],
     image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/b3822b99-555b-49a8-bb83-c8cf38e53eaf-dreamandcleantriad-com/assets/images/Commercial_Cleaning-1920w-13.jpg"
   },
   "deep-cleaning": {
-    title: "Deep Cleaning Services",
-    description: "Our deep cleaning service goes beyond regular cleaning to tackle built-up dirt and grime. Perfect for spring cleaning, move-ins, or special occasions.",
+    title: "Intensive Cleaning Solutions",
+    description: "Our intensive cleaning solution extends beyond standard cleaning to address accumulated debris and stains. Ideal for seasonal cleaning, moving preparations, or special events.",
     features: [
-      "Intensive cleaning of all areas",
-      "Detailed appliance cleaning",
-      "Baseboards and trim cleaning",
-      "Cabinet and drawer cleaning",
-      "Behind and under furniture"
+      "Comprehensive cleaning of every space",
+      "Thorough equipment maintenance",
+      "Molding and edge cleaning",
+      "Storage and compartment cleaning",
+      "Cleaning around and beneath furniture"
     ],
     image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/b3822b99-555b-49a8-bb83-c8cf38e53eaf-dreamandcleantriad-com/assets/images/pexels-photo-728471-1920w-9.jpeg"
   },
   "home-organizing": {
-    title: "Home Organizing Services",
-    description: "Create a clutter-free, functional space with our professional home organizing services. We help you maximize your space and maintain organization long-term.",
+    title: "Residence Organization Solutions",
+    description: "Establish a tidy, efficient environment with our expert residence organization solutions. We assist you in optimizing your area and preserving organization over time.",
     features: [
-      "Closet organization systems",
-      "Kitchen and pantry organization",
-      "Garage and storage solutions",
-      "Home office setup",
-      "Downsizing assistance"
+      "Wardrobe organization systems",
+      "Food preparation and storage area organization",
+      "Workshop and storage solutions",
+      "Remote workspace configuration",
+      "Decluttering support"
     ],
     image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/b3822b99-555b-49a8-bb83-c8cf38e53eaf-dreamandcleantriad-com/assets/images/Organize_house-1920w-23.png"
   },
   "commercial-construction-cleanup": {
-    title: "Commercial Construction Cleanup",
-    description: "Professional post-construction cleaning services to prepare your commercial space for occupancy. We handle all the details from dust removal to final polish.",
+    title: "Business Construction Cleanup",
+    description: "Expert post-construction cleaning solutions to ready your business space for use. We manage every aspect from particle elimination to finishing touches.",
     features: [
-      "Post-construction debris removal",
-      "Dust and residue cleaning",
-      "Window and fixture cleaning",
-      "Floor preparation and cleaning",
-      "Final walk-through inspection"
+      "Construction waste elimination",
+      "Particle and leftover cleaning",
+      "Glass and hardware cleaning",
+      "Surface preparation and cleaning",
+      "Final review inspection"
     ],
     image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/b3822b99-555b-49a8-bb83-c8cf38e53eaf-dreamandcleantriad-com/assets/images/4-Reasons-Commercial-Cleaning-Services-Are-Importa-16.jpg"
   }
@@ -108,15 +108,15 @@ const locationContent: Record<string, {
 }> = {
   "greensboro-nc": {
     name: "Greensboro",
-    description: "Proudly serving the Greensboro, NC area with professional cleaning services."
+    description: "Honored to serve the Greensboro, NC region with expert cleaning solutions."
   },
   "high-point-nc": {
     name: "High Point",
-    description: "Providing exceptional cleaning services to the High Point, NC community."
+    description: "Delivering outstanding cleaning solutions to the High Point, NC area."
   },
   "winston-salem-nc": {
     name: "Winston-Salem",
-    description: "Trusted cleaning services for Winston-Salem, NC residents and businesses."
+    description: "Reliable cleaning solutions for Winston-Salem, NC homeowners and companies."
   }
 };
 
@@ -170,14 +170,14 @@ export default function ServicePage({
               {/* Left Column - Content */}
               <div>
                 <h2 className="text-3xl md:text-4xl font-semibold text-primary italic mb-6">
-                  About This Service
+                  About This Solution
                 </h2>
                 <p className="text-lg text-text-primary mb-8 leading-relaxed">
                   {serviceData.description}
                 </p>
                 
                 <h3 className="text-2xl font-semibold text-text-primary mb-4">
-                  What's Included:
+                  What You'll Get:
                 </h3>
                 <ul className="space-y-3 mb-8">
                   {serviceData.features.map((feature, index) => (
@@ -209,7 +209,7 @@ export default function ServicePage({
                     href="/#quote"
                     className="inline-flex items-center justify-center rounded-full border-2 border-primary py-4 px-8 text-base font-semibold uppercase text-primary transition-colors hover:bg-primary hover:text-white"
                   >
-                    Request Quote
+                    Request Estimate
                   </a>
                 </div>
               </div>
@@ -228,7 +228,7 @@ export default function ServicePage({
         <section className="bg-accent py-16 md:py-24">
           <div className="container text-center">
             <h2 className="text-3xl md:text-4xl font-semibold text-primary italic mb-6">
-              Why Choose Dream & Clean?
+              Why Select Dream & Clean?
             </h2>
             <div className="grid md:grid-cols-3 gap-8 mt-12">
               <div className="bg-white rounded-lg p-8 shadow-md">
@@ -238,10 +238,10 @@ export default function ServicePage({
                   </svg>
                 </div>
                 <h3 className="text-xl font-semibold text-text-primary mb-3">
-                  20+ Years Experience
+                  More Than 20 Years Experience
                 </h3>
                 <p className="text-text-secondary">
-                  Trusted cleaning services for over two decades in the Triad area.
+                  Reliable cleaning solutions for more than twenty years throughout the Triad region.
                 </p>
               </div>
 
@@ -252,10 +252,10 @@ export default function ServicePage({
                   </svg>
                 </div>
                 <h3 className="text-xl font-semibold text-text-primary mb-3">
-                  Flexible Scheduling
+                  Adaptable Scheduling
                 </h3>
                 <p className="text-text-secondary">
-                  We work around your schedule to provide convenient service times.
+                  We adjust to your timetable to deliver convenient service appointments.
                 </p>
               </div>
 
@@ -266,10 +266,10 @@ export default function ServicePage({
                   </svg>
                 </div>
                 <h3 className="text-xl font-semibold text-text-primary mb-3">
-                  100% Satisfaction
+                  Complete Satisfaction
                 </h3>
                 <p className="text-text-secondary">
-                  We guarantee your complete satisfaction with every cleaning.
+                  We promise your full satisfaction with each cleaning session.
                 </p>
               </div>
             </div>

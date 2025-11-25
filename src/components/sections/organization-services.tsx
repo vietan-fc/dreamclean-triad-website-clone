@@ -6,10 +6,10 @@ const OrganizationServices = () => {
       <div className="container">
         <div className="text-center mb-12">
           <h2 className="text-[32px] font-semibold italic text-primary mb-6">
-            Organization of Homes and Businesses
+            Structuring Residences and Workplaces
           </h2>
           <p className="text-[17px] text-text-secondary max-w-[900px] mx-auto leading-relaxed">
-            The organization of both homes and offices prioritizes functionality and efficiency tailored to their specific needs. Homes are designed for comfort and personal living, with spaces like living rooms for socializing, bedrooms for rest, kitchens for cooking, and home offices for remote work, alongside efficient storage and open layouts. Offices, in contrast, are organized to promote productivity and collaboration, featuring workstations, meeting rooms, break areas, and storage for supplies and documents.
+            The structuring of both residences and workplaces emphasizes practicality and productivity customized to their individual demands. Residences are crafted for relaxation and private living, with areas such as family rooms for gathering, sleeping quarters for relaxation, food preparation spaces for meal creation, and remote workspaces for telecommuting, combined with smart storage solutions and spacious designs. Workplaces, on the other hand, are structured to enhance output and teamwork, including individual desks, conference spaces, relaxation zones, and filing systems for materials and paperwork.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-y-8 md:gap-x-12">

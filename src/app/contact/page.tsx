@@ -11,9 +11,9 @@ export default function ContactPage() {
       <main>
         <div className="bg-primary py-24 text-center text-white">
           <div className="container mx-auto px-4">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Contact Us</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">Reach Out to Us</h1>
             <p className="text-xl max-w-2xl mx-auto opacity-90">
-              Get in touch with Dream & Clean for all your residential and commercial cleaning needs.
+              Connect with Dream & Clean for all your home and business cleaning requirements.
             </p>
           </div>
         </div>
@@ -24,7 +24,7 @@ export default function ContactPage() {
           <div className="max-w-3xl mx-auto">
             <div className="bg-white rounded-xl shadow-lg p-8 md:p-12 border border-border">
               <h2 className="text-3xl font-semibold text-primary text-center mb-8">
-                Send Us a Message
+                Drop Us a Note
               </h2>
               <QuoteFormSidebar />
             </div>

@@ -4,13 +4,13 @@ import { useState, useEffect } from "react";
 
 const testimonials = [
   {
-    quote: "I have been living in High Point for over 30 years and have never experienced a cleaning company quite like this. Edie and her crew really run a tight ship. Their cleaners are all courteous and the house smells great when they leave. What I like about them is that they are able to customize their packages to suit your needs better than any other cleaning company.",
+    quote: "I've resided in High Point for more than three decades and have never encountered a cleaning service quite like this one. Edie and her team operate with exceptional organization. Every cleaner displays professionalism and the home feels refreshed after their visit. What stands out to me is their ability to personalize their service plans to fit your preferences better than any competing cleaning business.",
   },
   {
-    quote: "Edie and her girls did a phenomenal job on my home. Their attention to detail is unmatched. I highly recommend them for any home or office needing a special touch for their cleaning in the Triad area.",
+    quote: "Edie and her team performed exceptionally well on my residence. Their meticulous approach is unrivaled. I strongly suggest them for any residence or workspace requiring exceptional care for their cleaning needs in the Triad region.",
   },
   {
-    quote: "The \"Dream and Clean\" crew is fantastic! Their attention to detail and getting into all the nooks and crannies is top notch! I highly recommend Dream & Clean for all your business and office cleaning needs.",
+    quote: "The \"Dream and Clean\" team is outstanding! Their thoroughness and ability to reach every corner is exceptional! I strongly suggest Dream & Clean for all your commercial and workplace cleaning requirements.",
   },
 ];
 
@@ -40,7 +40,7 @@ const TestimonialsCarousel = () => {
 
       <div className="container relative z-10 mx-auto flex flex-col items-center text-center">
         <h2 className="font-display text-3xl font-semibold italic text-white mb-6">
-          Reviews from Our Satisfied Clients
+          Testimonials from Our Happy Customers
         </h2>
         
         <div className="relative flex min-h-[320px] w-full max-w-4xl items-center justify-center md:min-h-[240px]">
@@ -75,7 +75,7 @@ const TestimonialsCarousel = () => {
           href="#"
           className="inline-block rounded-full bg-primary px-8 py-[14px] text-base font-semibold uppercase tracking-wide text-primary-foreground shadow-[0_4px_12px_rgba(29,184,180,0.3)] transition-colors duration-300 hover:bg-primary-dark focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-black/50"
         >
-          Leave A Review
+          Share Your Feedback
         </a>
       </div>
     </section>

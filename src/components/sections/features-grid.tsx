@@ -10,23 +10,23 @@ interface Feature {
 const features: Feature[] = [
   {
     icon: UserPlus,
-    title: 'Knowledgeable Staff',
-    description: 'Our screened and experienced cleaning staff consists of highly trained and skilled professionals.',
+    title: 'Expert Team Members',
+    description: 'Our vetted and seasoned cleaning team is comprised of thoroughly educated and competent specialists.',
   },
   {
     icon: GaugeCircle,
-    title: 'Fast & Reliable Service',
-    description: 'We prioritize delivering fast and efficient cleaning services without compromising on quality.',
+    title: 'Quick & Dependable Service',
+    description: 'We focus on providing rapid and effective cleaning solutions while maintaining our high standards.',
   },
   {
     icon: CalendarDays,
-    title: 'Flexible Scheduling',
-    description: 'We offer flexible scheduling options, allowing you to tailor our cleaning services to your specific needs.',
+    title: 'Adaptable Timetables',
+    description: 'We provide customizable scheduling alternatives, enabling you to personalize our cleaning offerings to match your unique requirements.',
   },
   {
     icon: SprayCan,
-    title: 'Quality Supplies',
-    description: 'We provide our own high-quality cleaning supplies and equipment, ensuring a hassle-free experience.',
+    title: 'Premium Equipment',
+    description: 'We bring our own top-tier cleaning products and tools, guaranteeing a seamless and convenient experience.',
   },
 ];
 

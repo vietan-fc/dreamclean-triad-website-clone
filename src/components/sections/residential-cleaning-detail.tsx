@@ -19,20 +19,20 @@ const ResidentialCleaningDetail = () => {
           {/* Right Column: Content */}
           <div className="text-left">
             <h2 className="mb-6 font-semibold italic leading-[1.3] text-[32px] text-primary">
-              Exceptional Residential Cleaning Services
+              Outstanding Home Cleaning Solutions
             </h2>
             <p className="mb-5 text-[17px] leading-[1.7] text-text-primary">
-              At Dream & Clean, we specialize in providing exceptional residential cleaning services. Our skilled team of cleaners pays attention to every detail, ensuring that your living spaces are thoroughly cleaned, sanitized, and organized. From bedrooms and bathrooms to kitchens and living areas, our trusted team takes care of everything so you don't have to!
+              Dream & Clean excels in delivering outstanding home cleaning solutions. Our expert cleaning professionals focus on every aspect, making sure your residence is comprehensively cleaned, disinfected, and tidied. From sleeping quarters and washrooms to cooking areas and common spaces, our reliable team handles all tasks so you won't need to!
             </p>
             <p className="mb-8 text-[17px] leading-[1.7] text-text-primary">
-              Our goal is to provide you with a pristine space where you can truly relax and unwind. Reach out to us right away to schedule services, whether you require a one-time deep cleaning or regularly occurring cleaning services, we've got you covered. Call us today!
+              Our mission is to deliver an immaculate environment where you can genuinely rest and recharge. Contact us immediately to arrange services—whether you need a single intensive cleaning session or ongoing regular maintenance, we're here to help. Give us a call today!
             </p>
             <a
               href="#"
               className="inline-block rounded-full bg-primary px-8 py-[14px] text-base font-semibold uppercase tracking-[0.5px] text-primary-foreground no-underline transition-colors duration-300 hover:bg-[#18A09D]"
               style={{ boxShadow: "0 4px 12px rgba(29, 184, 180, 0.3)" }}
             >
-              Schedule Service
+              Book Appointment
             </a>
           </div>
         </div>

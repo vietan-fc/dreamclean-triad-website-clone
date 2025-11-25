@@ -1,12 +1,12 @@
 export const services = [
-  { href: "/cleaning-service", label: "Cleaning Service" },
-  { href: "/residential-cleaning-service", label: "Residential Cleaning" },
-  { href: "/commercial-cleaning-service", label: "Commercial Cleaning" },
-  { href: "/deep-cleaning", label: "Deep Cleaning" },
-  { href: "/home-organizing", label: "Home Organizing" },
+  { href: "/cleaning-service", label: "Cleaning Solutions" },
+  { href: "/residential-cleaning-service", label: "Home Cleaning" },
+  { href: "/commercial-cleaning-service", label: "Business Cleaning" },
+  { href: "/deep-cleaning", label: "Intensive Cleaning" },
+  { href: "/home-organizing", label: "Residence Organization" },
   {
     href: "/commercial-construction-cleanup",
-    label: "Commercial Construction Cleanup",
+    label: "Business Construction Cleanup",
   },
 ];
 

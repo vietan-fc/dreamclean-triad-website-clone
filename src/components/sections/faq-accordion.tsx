@@ -12,27 +12,27 @@ import { ChevronDown } from 'lucide-react';
 const faqItems = [
   {
     value: 'item-1',
-    question: 'Why is Dream & Clean so popular?',
+    question: 'What makes Dream & Clean stand out?',
     answer:
-      "Dream & Clean is committed to going above and beyond to deliver trustworthy and effective cleaning \nservices. We employ modern cleaning methods and eco-friendly cleaning supplies to ensure your home or business is clean, organized, and sanitary. We provide customized cleaning \nservices because we recognize that each customer has different cleaning \nneeds.\n\nAt Dream & Clean, we are passionate about what we do and take pride in delivering exceptional cleaning \nservices that make a difference in the lives of our clients. Choose us for all your cleaning \nservice needs and experience the difference it makes when you partner with Dream & Clean.",
+      "Dream & Clean is dedicated to exceeding expectations by providing reliable and efficient cleaning \nsolutions. We utilize contemporary cleaning techniques and environmentally safe cleaning products to guarantee your residence or workplace is spotless, tidy, and hygienic. We deliver personalized cleaning \nsolutions because we understand that every client has unique cleaning \nrequirements.\n\nAt Dream & Clean, we love what we do and are proud of offering superior cleaning \nsolutions that positively impact our clients' lives. Select us for all your cleaning \nsolution requirements and discover the difference it makes when you work with Dream & Clean.",
   },
   {
     value: 'item-2',
-    question: 'How often do you provide cleaning services?',
+    question: 'What is the frequency of your cleaning services?',
     answer:
-      'We understand that every home and business has different cleaning needs, which is why we offer flexible cleaning schedules. We can provide services daily, weekly, bi-weekly, or monthly, depending on your preferences and requirements. Our goal is to ensure that your space is always clean and well-maintained.',
+      'We recognize that each residence and business has unique cleaning requirements, which is why we provide adaptable cleaning timetables. We can deliver services on a daily, weekly, bi-weekly, or monthly basis, based on your choices and needs. Our objective is to make sure your area remains spotless and properly maintained.',
   },
   {
     value: 'item-3',
-    question: 'Do you use eco-friendly cleaning products?',
+    question: 'Are your cleaning products environmentally safe?',
     answer:
-      'Yes, we are committed to using eco-friendly cleaning products that are safe for your family, employees, and the environment. Our cleaning products are non-toxic, biodegradable, and free from harsh chemicals. We believe that using green cleaning products is essential for maintaining a healthy and sustainable environment.',
+      'Absolutely, we are devoted to utilizing environmentally safe cleaning products that protect your loved ones, workforce, and the planet. Our cleaning solutions are chemical-free, naturally decomposing, and contain no aggressive substances. We are convinced that employing sustainable cleaning solutions is crucial for preserving a wholesome and eco-conscious environment.',
   },
   {
     value: 'item-4',
-    question: 'Do you provide your own cleaning supplies and equipment?',
+    question: 'Do you bring your own cleaning materials and tools?',
     answer:
-      'Yes, we provide all necessary cleaning supplies and equipment for our services. Our team of professional cleaners arrives at your location fully equipped with everything they need to complete the job to the highest standard. Additionally, our cleaning products are environmentally friendly and safe for your home or workplace.\n\nIf you have any specific cleaning products or equipment that you would like us to use, please let us know and we will do our best to accommodate your request.',
+      'Yes, we supply all required cleaning materials and tools for our services. Our group of expert cleaners comes to your site completely prepared with all items necessary to finish the work at the highest level. Furthermore, our cleaning solutions are planet-friendly and safe for your residence or business location.\n\nIf there are particular cleaning solutions or tools you prefer us to utilize, please inform us and we will strive to fulfill your preference.',
   },
 ];
 
@@ -46,10 +46,10 @@ const FaqAccordion = () => {
             <div className="absolute inset-0 bg-black/50 z-0"></div>
             <div className="relative z-10 max-w-[900px] mx-auto text-center">
                 <h3 className="text-white text-[36px] italic font-semibold mb-4 font-display">
-                    Frequently Asked Questions
+                    Common Questions Answered
                 </h3>
                 <p className="text-white text-xl mb-12 max-w-2xl mx-auto">
-                    Have questions about our services? We've got answers below.
+                    Curious about our offerings? Find answers here.
                 </p>
 
                 <Accordion type="single" collapsible className="w-full space-y-4">
