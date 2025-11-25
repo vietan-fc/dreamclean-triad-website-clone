@@ -33,25 +33,34 @@ const features: Feature[] = [
 const FeaturesGrid = () => {
   return (
     <section 
-      className="bg-accent py-16 relative"
+      className="bg-accent py-20 lg:py-24 relative overflow-hidden"
       style={{ 
         backgroundImage: "url('https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/b3822b99-555b-49a8-bb83-c8cf38e53eaf/generated_images/light-teal-background-with-subtle-water--5b11e569-20251125001216.jpg')",
         backgroundSize: 'cover',
         backgroundPosition: 'center'
       }}
     >
-      <div className="absolute inset-0 bg-accent/90 z-0"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-white/95 via-white/90 to-white/95 z-0"></div>
+      
       <div className="container relative z-10">
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-x-8 gap-y-12 md:grid-cols-2 lg:grid-cols-4">
           {features.map((feature, index) => {
             const Icon = feature.icon;
             return (
-              <div key={index} className="flex flex-col items-center text-center">
-                <Icon className="h-14 w-14 stroke-1 text-primary mb-4" />
-                <h6 className="text-base lg:text-xl font-semibold text-primary mb-2">
+              <div 
+                key={index} 
+                className="group flex flex-col items-center text-center p-6 rounded-2xl transition-all duration-300 hover:bg-white hover:shadow-xl hover:-translate-y-2 cursor-default"
+              >
+                <div className="mb-6 relative">
+                  <div className="absolute inset-0 bg-primary/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                  <Icon className="h-16 w-16 text-primary stroke-[1.5] relative z-10 transition-transform duration-300 group-hover:scale-110" />
+                </div>
+                
+                <h6 className="text-lg lg:text-xl font-bold text-slate-900 mb-3 uppercase tracking-wide">
                   {feature.title}
                 </h6>
-                <p className="text-sm lg:text-[17px] leading-relaxed text-text-secondary">
+                
+                <p className="text-base leading-relaxed text-slate-600 font-medium">
                   {feature.description}
                 </p>
               </div>
