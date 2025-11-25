@@ -15,7 +15,7 @@ const OrganizationServices = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-y-8 md:gap-x-12">
           <div>
             <Image
-              src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/b3822b99-555b-49a8-bb83-c8cf38e53eaf-dreamandcleantriad-com/assets/images/Organize_house-1920w-23.png"
+              src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=546&q=80&auto=format&fit=crop&ixlib=rb-4.0.3"
               alt="Woman organizing folded clothes on a white shelving unit"
               width={546}
               height={364}
@@ -24,7 +24,7 @@ const OrganizationServices = () => {
           </div>
           <div>
             <Image
-              src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/b3822b99-555b-49a8-bb83-c8cf38e53eaf-dreamandcleantriad-com/assets/images/Organized_Office2-1920w-24.jpg"
+              src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=546&q=80&auto=format&fit=crop&ixlib=rb-4.0.3"
               alt="Woman viewing an organized closet with hanging clothes and shoe storage"
               width={546}
               height={364}

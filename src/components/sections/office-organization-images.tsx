@@ -7,7 +7,7 @@ const OfficeOrganizationImages = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-0">
         <div className="relative aspect-video min-h-[300px] md:min-h-[500px]">
           <Image
-            src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/b3822b99-555b-49a8-bb83-c8cf38e53eaf-dreamandcleantriad-com/assets/images/pexels-photo-6899401-1200w-11.jpeg"
+            src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80&auto=format&fit=crop&ixlib=rb-4.0.3"
             alt="Vibrant orange-themed open-plan office with modern desks and chairs"
             fill
             className="object-cover"
@@ -16,7 +16,7 @@ const OfficeOrganizationImages = () => {
         </div>
         <div className="relative aspect-video min-h-[300px] md:min-h-[500px]">
           <Image
-            src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/b3822b99-555b-49a8-bb83-c8cf38e53eaf-dreamandcleantriad-com/assets/images/IMG_2299-1920w-8.jpg"
+            src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=1920&q=80&auto=format&fit=crop&ixlib=rb-4.0.3"
             alt="Burgundy and white themed office with glass partitions and motivational text on the wall"
             fill
             className="object-cover"

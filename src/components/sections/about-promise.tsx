@@ -8,7 +8,7 @@ const AboutPromise = () => {
         <div className="grid md:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div className="w-full">
             <Image
-              src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/b3822b99-555b-49a8-bb83-c8cf38e53eaf-dreamandcleantriad-com/assets/images/pexels-photo-728471-1920w-9.jpeg"
+              src="https://images.unsplash.com/photo-1556911220-bff31c812dba?w=570&q=80&auto=format&fit=crop&ixlib=rb-4.0.3"
               alt="Person cleaning wooden surface with a blue cloth"
               width={570}
               height={380}

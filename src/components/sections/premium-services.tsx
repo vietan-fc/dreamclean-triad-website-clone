@@ -3,17 +3,17 @@ import Image from 'next/image';
 const services = [
   {
     name: 'Residential Cleaning',
-    image: 'https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/b3822b99-555b-49a8-bb83-c8cf38e53eaf-dreamandcleantriad-com/assets/images/pexels-photo-2988860-1200w-10.jpeg',
+    image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=1200&q=80&auto=format&fit=crop&ixlib=rb-4.0.3',
     alt: 'Modern and clean residential living room',
   },
   {
     name: 'Commercial Cleaning',
-    image: 'https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/b3822b99-555b-49a8-bb83-c8cf38e53eaf-dreamandcleantriad-com/assets/images/Commercial_Cleaning-1920w-13.jpg',
+    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&q=80&auto=format&fit=crop&ixlib=rb-4.0.3',
     alt: 'Bright and clean commercial office space',
   },
   {
     name: 'Eco-Friendly Cleaning',
-    image: 'https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/b3822b99-555b-49a8-bb83-c8cf38e53eaf-dreamandcleantriad-com/assets/images/pexels-photo-4239104-1920w-7.jpeg',
+    image: 'https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?w=1920&q=80&auto=format&fit=crop&ixlib=rb-4.0.3',
     alt: 'Hand in yellow glove using eco-friendly cleaning supplies',
   },
 ];

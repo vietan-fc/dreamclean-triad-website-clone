@@ -35,7 +35,7 @@ const FeaturesGrid = () => {
     <section 
       className="bg-accent py-20 lg:py-24 relative overflow-hidden"
       style={{ 
-        backgroundImage: "url('https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/b3822b99-555b-49a8-bb83-c8cf38e53eaf/generated_images/light-teal-background-with-subtle-water--5b11e569-20251125001216.jpg')",
+        backgroundImage: "url('https://images.unsplash.com/photo-1557683316-973673baf926?w=1920&q=80&auto=format&fit=crop&ixlib=rb-4.0.3')",
         backgroundSize: 'cover',
         backgroundPosition: 'center'
       }}

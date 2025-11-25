@@ -78,7 +78,7 @@ export default function HeaderNavigation() {
           <div className="flex-shrink-0">
             <Link href="/">
               <Image
-                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/b3822b99-555b-49a8-bb83-c8cf38e53eaf-dreamandcleantriad-com/assets/images/ezgif_com-webp-to-jpg-removebg-preview-a5d5d5b8-b1-1.png"
+                src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=208&q=80&auto=format&fit=crop&ixlib=rb-4.0.3"
                 alt="dream & clean logo"
                 width={208}
                 height={56}
@@ -169,7 +169,7 @@ export default function HeaderNavigation() {
           <div className="flex items-center justify-between border-b border-border p-5 bg-secondary/30">
             <Link href="/" onClick={closeMenu}>
               <Image
-                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/b3822b99-555b-49a8-bb83-c8cf38e53eaf-dreamandcleantriad-com/assets/images/ezgif_com-webp-to-jpg-removebg-preview-a5d5d5b8-b1-1.png"
+                src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=170&q=80&auto=format&fit=crop&ixlib=rb-4.0.3"
                 alt="dream & clean logo"
                 width={170}
                 height={46}

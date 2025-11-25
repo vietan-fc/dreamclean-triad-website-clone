@@ -8,7 +8,7 @@ const ResidentialCleaningDetail = () => {
           {/* Left Column: Image */}
           <div className="w-full">
             <Image
-              src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/b3822b99-555b-49a8-bb83-c8cf38e53eaf-dreamandcleantriad-com/assets/images/IMG_2472-1920w-14.jpg"
+              src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=570&q=80&auto=format&fit=crop&ixlib=rb-4.0.3"
               alt="Dream & Clean team of four people in white uniforms holding cleaning supplies and smiling"
               width={570}
               height={380}

@@ -18,7 +18,7 @@ const Footer = () => {
             <div className="flex flex-col items-center lg:items-start">
               <Link href="/" className="mb-6">
                 <Image
-                  src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/b3822b99-555b-49a8-bb83-c8cf38e53eaf-dreamandcleantriad-com/assets/images/ezgif_com-webp-to-jpg-removebg-preview-502w-6.png"
+                  src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=200&q=80&auto=format&fit=crop&ixlib=rb-4.0.3"
                   alt="Dream & Clean Logo"
                   width={200}
                   height={54}
@@ -72,13 +72,19 @@ const Footer = () => {
             <div className="h-[250px] lg:h-[280px] rounded-lg overflow-hidden">
               <div className="bg-gray-200 w-full h-full flex items-center justify-center relative">
                 <p className="text-gray-500 font-medium z-10">Map</p>
-                <Image
-                  src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/b3822b99-555b-49a8-bb83-c8cf38e53eaf-dreamandcleantriad-com/assets/images/marker-icon-26.png"
-                  alt="Map marker pin"
-                  width={25}
-                  height={41}
+                <svg
+                  width="25"
+                  height="41"
+                  viewBox="0 0 25 41"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
                   className="absolute z-20"
-                />
+                >
+                  <path
+                    d="M12.5 0C5.596 0 0 5.596 0 12.5C0 21.875 12.5 41 12.5 41C12.5 41 25 21.875 25 12.5C25 5.596 19.404 0 12.5 0ZM12.5 17.1875C9.763 17.1875 7.5625 14.987 7.5625 12.25C7.5625 9.513 9.763 7.3125 12.5 7.3125C15.237 7.3125 17.4375 9.513 17.4375 12.25C17.4375 14.987 15.237 17.1875 12.5 17.1875Z"
+                    fill="#EF4444"
+                  />
+                </svg>
               </div>
             </div>
 

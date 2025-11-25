@@ -24,7 +24,7 @@ const CommercialCleaningDetail = () => {
           {/* Image Column */}
           <div>
             <Image
-              src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/b3822b99-555b-49a8-bb83-c8cf38e53eaf-dreamandcleantriad-com/assets/images/4-Reasons-Commercial-Cleaning-Services-Are-Importa-16.jpg"
+              src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=585&q=80&auto=format&fit=crop&ixlib=rb-4.0.3"
               alt="Modern open office space with colorful chairs and ample natural light"
               width={585}
               height={390}

@@ -33,7 +33,7 @@ const TestimonialsCarousel = () => {
     <section
       className="relative bg-cover bg-center py-24 font-body"
       style={{
-        backgroundImage: "url('https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/b3822b99-555b-49a8-bb83-c8cf38e53eaf-dreamandcleantriad-com/assets/images/shutterstock_1645711534_1659107289_e1eb58088a757dc-18.jpg')",
+        backgroundImage: "url('https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1920&q=80&auto=format&fit=crop&ixlib=rb-4.0.3')",
       }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-70" aria-hidden="true" />
